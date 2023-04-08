@@ -16,7 +16,7 @@ class CardCategory extends StatelessWidget {
       width: 130,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: customColor,
+        color: customColor.withOpacity(0.3),
       ),
       padding: const EdgeInsets.all(10),
       child: Row(
